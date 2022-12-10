@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <router-link to="/login">登录</router-link>
-    <router-link to="/main">首页</router-link>
+  <div class="app">
     <router-view></router-view>
   </div>
 </template>
@@ -16,4 +14,8 @@ export default defineComponent({
 })
 </script>
 
-<style scoped></style>
+<style lang="less" scoped>
+.app {
+  height: 100%;
+}
+</style>

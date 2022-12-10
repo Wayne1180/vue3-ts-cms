@@ -1,5 +1,5 @@
 import { App } from 'vue'
-import registerElement from "./register-element";
+import registerElement from './register-element'
 export function registerApp(app: App): void {
-    registerElement(app)
+  registerElement(app)
 }
