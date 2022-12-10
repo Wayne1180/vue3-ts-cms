@@ -10,8 +10,8 @@
     </el-form>
   </div>
 </template>
-  
-  <script lang="ts">
+
+<script lang="ts">
 import { defineComponent, reactive, ref } from 'vue'
 import { ElForm } from 'element-plus'
 import { rules } from '../config/account-config'
@@ -55,6 +55,5 @@ export default defineComponent({
   }
 })
 </script>
-  
-  <style scoped>
-</style>
+
+<style scoped></style>
